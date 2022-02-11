@@ -1,0 +1,41 @@
+.projects {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  .main {
+    padding: 20px 0;
+  }
+
+  .project {
+    margin: 10px 10px 10px 0;
+    width: 300px;
+    -webkit-box-shadow: 5px 5px 16px -2px rgba(0, 0, 0, 0.71);
+    box-shadow: 5px 5px 16px -2px rgba(0, 0, 0, 0.71);
+
+    img {
+      width: 100%;
+      height: 200px;
+    }
+
+    .text {
+      padding: 20px;
+    }
+
+    .github {
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: #000;
+      cursor: pointer;
+
+      a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+      }
+    }
+  }
+}

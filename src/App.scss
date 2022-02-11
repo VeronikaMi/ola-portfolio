@@ -1,0 +1,25 @@
+.list {
+  width: 80%;
+  height: 70px;
+  font-size: 13px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #999;
+
+  ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    li a {
+      text-decoration: none;
+      color: #000;
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}

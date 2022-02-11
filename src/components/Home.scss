@@ -1,0 +1,52 @@
+h1 {
+  margin: 0;
+}
+
+.home {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.first {
+  background: url("https://concisesoftware.com/wp-content/uploads/nicole-wolf-CZ9AjMGKIFI-unsplash.jpg")
+    center center no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(112, 61, 13, 0.1);
+    z-index: 0;
+  }
+
+  .right {
+    background-color: rgba(17, 15, 14, 0.4);
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+
+    .text {
+      z-index: 10;
+      margin: 0 auto;
+      width: 80%;
+
+      .main-btn {
+        border: none;
+        padding: 10px 20px;
+        background-color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}
