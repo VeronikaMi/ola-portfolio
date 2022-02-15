@@ -1,9 +1,9 @@
 import "./App.scss";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import About from "./components/About";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import About from "./components/About/About";
+import Home from "./components/Home/Home";
+import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
